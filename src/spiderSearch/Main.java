@@ -54,9 +54,7 @@ public class Main {
 			
 			
 			//The only change to make this work on your computer would be to change this line below to any direct path
-			//Make sure to change it to a file such as \\Desktop\\Testing\\test.csv and use the format mentioned previous.
-			//FileWriter csvWriter = new FileWriter("\\Users\\TestUser\\Desktop\\Testing\\test.csv");
-			FileWriter csvWriter = new FileWriter("\\Users\\Bagelsause\\Desktop\\MLMV\\test.csv");
+			FileWriter csvWriter = new FileWriter("\\Users\\TestUser\\Desktop\\Testing\\test.csv");
 			csvWriter.append("Timestamp, Email Address, Company Name, Company URL, Company Phone Number, Company Address, Country, Company Founding date, Company founder\'s name and position, Company full description, Number of Employees, Startup Categories, Status, Batch, Total Funding ($USD), Number of Funding rounds, Investor(s), Company Blog URL / RSS Feed, Facebook URL, Twitter URL, Other social pages \n");
 			
 			for (int i = 0; i < al.size(); i++) {
